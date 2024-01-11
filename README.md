@@ -1,73 +1,77 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# Weihnachtsmarkt V1
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+**Weihnachtsmarkt** is a React SPA developed with NextJS framework, TypeScript and TailwindCSS. Used react-leaflet to create an interactive map. Different Christmas markets in and around Berlin are plotted on the map using react-leaflet. The user can find details about nearby Christmas markets by using their current location.
 
-## Installation
+The data is obtained from [Open Data Berlin](https://daten.berlin.de/datensaetze/berliner-weihnachtsm%C3%A4rkte) <br>
+The website design is heavily influenced by [Berliner Weihnachtsmarkt-Finder](https://weihnachtsmaerkte.odis-berlin.de/?id=)
 
-```bash
-$ npm install
+## Live Demo
+
+Live Demo hosted [on Vercel](https://weinachtsmarkt.vercel.app/)
+
+## Getting Started
+
+### Dependencies
+
+- Need NPM to install the packages needed for the project
+- Need Git and Github account to setup and contribute to the project
+
+### Installing
+
+- Clone the repo in your local machine.
+
+  ```
+  https://github.com/ram1117/weinachtsmarkt.git
+  ```
+
+- Run the following command to install the project dependencies using npm
+  ```
+  cd weinachtsmarkt
+  ```
+  ```
+  npm install
+  ```
+
+### Executing program
+
+- Run the following command to start the NextJS Dev server
+
+  ```
+  npm run dev
+  ```
+
+## Help
+
+Please raise a Github issue for errors or bugs.
+
+```
+https://github.com/ram1117/weinachtsmarkt/issues
 ```
 
-## Running the app
+## Authors
 
-```bash
-# development
-$ npm run start
+### Ram Kumar Karuppusamy
 
-# watch mode
-$ npm run start:dev
+[@ram1117](https://github.com/ram1117) <br />
+[ram kumar karuppusamy](https://www.linkedin.com/in/ram-kumar-karuppusamy/)
 
-# production mode
-$ npm run start:prod
-```
+## Version History
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- 0.1
+  - Initial Release
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+This project is [MIT](./LICENSE) licensed. See the LICENSE.md file for details
+
+## Acknowledgments
+
+The following tutorial greatly helped in customizing the react-leaflet map used in the project.
+
+- [jan mueller](https://jan-mueller.at/blog/react-leaflet/)
+
+## Future Improvements
+
+The data is originally in German. I would like to add multi-language support in the future using i18n library
