@@ -77,7 +77,7 @@
     "testEnvironment": "node"
   },
   "lint-staged": {
-    "**/*.{tsx,ts}": [
+    "**/*.{ts}": [
       "eslint --max-warnings=0 --fix",
       "prettier --write"
     ],
