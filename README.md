@@ -1,15 +1,12 @@
-# Weihnachtsmarkt V1
+# Film Festival V2 Back End
 
 ## Description
 
-**Weihnachtsmarkt** is a React SPA developed with NextJS framework, TypeScript and TailwindCSS. Used react-leaflet to create an interactive map. Different Christmas markets in and around Berlin are plotted on the map using react-leaflet. The user can find details about nearby Christmas markets by using their current location.
-
-The data is obtained from [Open Data Berlin](https://daten.berlin.de/datensaetze/berliner-weihnachtsm%C3%A4rkte) <br>
-The website design is heavily influenced by [Berliner Weihnachtsmarkt-Finder](https://weihnachtsmaerkte.odis-berlin.de/?id=)
+**Film Festival V2 Back End** is the backend api applicaition for the Film Festival V2 webpage. The application is developed using NestJS.
 
 ## Live Demo
 
-Live Demo hosted [on Vercel](https://weinachtsmarkt.vercel.app/)
+TBA
 
 ## Getting Started
 
@@ -23,12 +20,12 @@ Live Demo hosted [on Vercel](https://weinachtsmarkt.vercel.app/)
 - Clone the repo in your local machine.
 
   ```
-  https://github.com/ram1117/weinachtsmarkt.git
+  https://github.com/ram1117/filmfestival-be.git
   ```
 
 - Run the following command to install the project dependencies using npm
   ```
-  cd weinachtsmarkt
+  cd filmfestival-be
   ```
   ```
   npm install
@@ -39,7 +36,7 @@ Live Demo hosted [on Vercel](https://weinachtsmarkt.vercel.app/)
 - Run the following command to start the NextJS Dev server
 
   ```
-  npm run dev
+  npm run start:dev
   ```
 
 ## Help
@@ -47,7 +44,7 @@ Live Demo hosted [on Vercel](https://weinachtsmarkt.vercel.app/)
 Please raise a Github issue for errors or bugs.
 
 ```
-https://github.com/ram1117/weinachtsmarkt/issues
+https://github.com/ram1117/filmfestival-be/issues
 ```
 
 ## Authors
@@ -68,10 +65,8 @@ This project is [MIT](./LICENSE) licensed. See the LICENSE.md file for details
 
 ## Acknowledgments
 
-The following tutorial greatly helped in customizing the react-leaflet map used in the project.
-
-- [jan mueller](https://jan-mueller.at/blog/react-leaflet/)
+TBA
 
 ## Future Improvements
 
-The data is originally in German. I would like to add multi-language support in the future using i18n library
+TBA
